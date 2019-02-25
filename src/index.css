@@ -103,7 +103,7 @@ line-height: 42px;
 .card-item-like-btn {
   grid-column: 5 / -1;
   grid-row: 1 / span 2;
-  background: var(--like-button-color) no-repeat url("/assets/icons/heart-icon.png") center;
+  background: var(--like-button-color) no-repeat url("./heart-icon.png") center;
   height: 2.5rem;
   width: 2.5rem;
   border: none;
