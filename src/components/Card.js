@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import itemImages from '../assets/images';
-// import blueberryImg from '../assets/images/blueberries.jpg'
 import LikeBadge from './LikeBadge'
 import SaleBadge from './SaleBadge'
 
@@ -21,10 +19,8 @@ class Card extends Component {
     }
 
     render() {
-        // console.log(this.props)
         const imageURL = `assets/images/${this.props.item.filenameString}`
 
-        // console.log(itemImages)
         return (
             <div className="card">
                 <SaleBadge onSale={this.props.item.onSale}/>

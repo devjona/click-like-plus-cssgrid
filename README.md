@@ -1,3 +1,26 @@
+# Jonathan's ReadMe comments:
+I built this as a solution to a code challenge.
+
+## Using:
+* CSS Grid
+* React
+
+## Inspiration:
+The idea is that a page like this would pull a JSON object from a server. This JSON would be a list of items, each with some details such as:
+* Tags
+* Title
+* On sale
+* Default 'likes' count
+
+By designing this page with components, the code to display dozens or hundreds of items is minimal. Components and sub-components work together to render dynamic information predictably, exactly as the UI/UX designers planned it. The layout is fully responsive across all device sizes.
+
+## Areas of improvement:
+* With more time, I'd like to develop these into Styled Components.
+* For fun, I'd like to make this page more configurable by the user; they can enter URLs of more images, as well as define whether the image is 'on sale' or not, and see the list grow.
+
+Thanks for taking the time to visit!
+
+# The standard `create-react-app` ReadMe:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
