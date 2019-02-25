@@ -7,7 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          Click the like buttons!
+          Click the like buttons! 
+          <a href="https://github.com/alorda/click-like-plus-cssgrid">GitHub</a>
         </header>
         <Container />
       </div>
