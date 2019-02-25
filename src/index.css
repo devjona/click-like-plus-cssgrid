@@ -127,3 +127,7 @@ line-height: 42px;
   line-height: 1rem;
   text-align: center;
 }
+
+.hide {
+  display: none
+}

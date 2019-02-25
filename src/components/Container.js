@@ -6,33 +6,45 @@ const Container = (props) => {
         {
           onSale: false,
           altTag: 'blueberries',
-          filenameString: 'blueberries.jpg'
+          filenameString: 'blueberries.jpg',
+          tag: 'desserts',
+          title: 'Blueberries in Mug'
         },
         {
           onSale: true,
           altTag: 'leather chair',
-          filenameString: 'leather-chair.jpg'
+          filenameString: 'leather-chair.jpg',
+          tag: 'furniture',
+          title: 'Leather Chair'
         },
         {
           onSale: false,
           altTag: 'camera',
-          filenameString: 'camera.jpg'
+          filenameString: 'camera.jpg',
+          tag: 'electronics',
+          title: 'Camera'
         },
         {
           onSale: false,
           altTag: 'orange-chair',
-          filenameString: 'orange-chair.jpg'
+          filenameString: 'orange-chair.jpg',
+          tag: 'furniture',
+          title: 'Orange Chair'
         },
         {
           onSale: false,
           altTag: 'potted plant',
-          filenameString: 'potted-plant.jpg'
+          filenameString: 'potted-plant.jpg',
+          tag: 'plants',
+          title: 'Potted Plants'
         },
         {
-          onSale: false,
+          onSale: true,
           altTag: 'wood stool',
-          filenameString: 'wood-stool.jpg'
-        },
+          filenameString: 'wood-stool.jpg',
+          tag: 'furniture',
+          title: 'Wood Stool'
+        }
     ]
     
     const cards = items.map((item) => {
