@@ -27,6 +27,7 @@ code {
   grid-gap: 0.75rem;
   grid-template-columns: repeat(auto-fill, minmax(275px, 370px));
   justify-content: center;
+  margin: 1rem;
 }
 
 /* 
