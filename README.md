@@ -1,6 +1,6 @@
 # Jonathan's ReadMe comments:
 I built this as a solution to a code challenge.
-It is live at https://dashboard.heroku.com/apps/boiling-wildwood-11659/settings
+It is deployed to [Heroku](https://boiling-wildwood-11659.herokuapp.com/)
 
 ## Using:
 * CSS Grid
