@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const LikeBadge = (props) => {
+// Same deal as the other file, just a different syntax
+// const LikeBadge = ({ likes }) =>
+//   likes > 0 && <span className="like-badge">{likes}</span>;
 
-    if (props.likes > 0) {
-        return (
-            <span className="like-badge">{props.likes}</span>
-            )
-    } else {
-        return null
-    }
-}
+const LikeBadge = props => {
+  if (props.likes > 0) {
+    return <span className="like-badge">{props.likes}</span>;
+  } else {
+    return null;
+  }
+};
 
-export default LikeBadge
+export default LikeBadge;
